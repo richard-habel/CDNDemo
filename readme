@@ -1,0 +1,27 @@
+CDNDemo
+
+Bucket
+1. Create a bucket.
+2. Pick region.
+3. Upload your file(s).
+4. Make the objects in the bucket public? If normal users should be able to see
+the images/videos, the bucket needs to be public.
+- edit bucket permissions
+- select a role, storage object viewer, type allUsers then click Add.
+
+CDN
+1. Load balancing
+2. choose a name
+    Backend config
+3. create a backend bucket and pick a name and pick the bucket you just created
+4. click the Enable Cloud CDN.
+    Host and path rules
+5. make sure your backend is picked.
+    Frontend config
+6. pick a name
+7. choose or leave default config
+    review
+8. click create.
+9. Copy the Ip
+10. ip/nameOfFile.type
+11. done.
